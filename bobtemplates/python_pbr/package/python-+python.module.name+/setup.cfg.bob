@@ -1,10 +1,10 @@
 [metadata]
-name = bobtemplates.python_pbr
-summary = bobtemplates to create python packages with pbr
+name = {{{ python.module.name }}}
+summary = {{{ python.module.description }}}
 description-file = README.md
-author = 'Christoph Glaubitz'
-author-email = 'c.glaubitz@syseleven.de'
-home-page = 'https://www.syseleven.de/'
+author = {{{ python.module.author.name }}}
+author-email = {{{ python.module.author.email }}}
+home-page = {{{ python.module.author.homepage }}}
 classifier =
     Intended Audience :: Information Technology
     Intended Audience :: System Administrators
@@ -19,8 +19,7 @@ classifier =
     Programming Language :: Python :: 3.4
 
 [files]
-packages = bobtemplates
-namespace_packages = bobtemplates
+packages = {{{ python.module.name }}}
 
 [pbr]
 warnerrors = True
