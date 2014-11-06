@@ -29,6 +29,21 @@ You will be asked for the relevant values anyway, but the default values of
 the fields will be the defined ones.
 
 If these variables are not defined, they are queried via git.
+mr.bob will ask you for this variables, and recommend the configured ones for
+default.
+
+
+There are more variables you could configure, and which are used in the header
+of setup.py. Again this could be done in ```~/.mrbob``` or git.
+```
+[variables]
+...
+user.copyright_name = Your Company
+user.copyright_year = 2014
+```
+If user.copyright_name is not set, author name is used. If user.copyright_year
+is not set, the current year is used.
+
 
 ## Templates
 

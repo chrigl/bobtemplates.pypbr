@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Copyright (c) 2014 Syseleven GmbH
+# Copyright (c) {{{ user.copyright_year }}} {{{ user.copyright_name }}}
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,6 +18,6 @@ import setuptools
 
 
 setuptools.setup(
-        setup_requires = ['pbr', 'mr.bob'],
+        setup_requires = ['pbr'],
         pbr=True
         )
