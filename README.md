@@ -80,3 +80,13 @@ python-simple-namespace/simple/__init__.py
 python-simple-namespace/simple/namespace
 python-simple-namespace/simple/namespace/__init__.py
 ```
+
+## Known issues
+
+mr.bob does not install as a requirement with ```pip < 6```. Consider to
+mr.bob by hand.
+
+```
+$ pip install mr.bob
+$ pip install bobtemplates.python_pbr
+```
