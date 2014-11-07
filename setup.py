@@ -18,6 +18,6 @@ import setuptools
 
 
 setuptools.setup(
-        setup_requires = ['pbr', 'mr.bob'],
+        setup_requires = ['pbr',],
         pbr=True
         )
