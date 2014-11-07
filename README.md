@@ -4,14 +4,14 @@ Creating python packages that use [pbr](http://docs.openstack.org/developer/pbr/
 
 ## Install
 ```
-pip install bobtemplates.python_pbr
+pip install bobtemplates.pypbr
 ```
 
 ## Usage
 ```
-mrbob bobtemplates.python_pbr:package
+mrbob bobtemplates.pypbr:package
 ...
-mrbob bobtemplates.python_pbr:namespace_package
+mrbob bobtemplates.pypbr:namespace_package
 ```
 
 ## Variables
@@ -92,5 +92,5 @@ mr.bob by hand.
 
 ```
 $ pip install mr.bob
-$ pip install bobtemplates.python_pbr
+$ pip install bobtemplates.pypbr
 ```

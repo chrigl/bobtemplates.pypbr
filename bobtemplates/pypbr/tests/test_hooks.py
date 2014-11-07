@@ -1,6 +1,6 @@
 import pytest
 import functools
-from bobtemplates.python_pbr.hooks import validate_name
+from bobtemplates.pypbr.hooks import validate_name
 from mrbob.bobexceptions import ValidationError
 
 
