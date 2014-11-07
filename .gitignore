@@ -6,5 +6,6 @@ uitests.xml
 *.egg
 dist/
 build/
+.tox/
 AUTHORS
 ChangeLog

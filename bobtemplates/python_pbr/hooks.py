@@ -2,7 +2,11 @@
 import re
 import os
 import datetime
-from subprocess import check_output
+try:
+    from subprocess import check_output  # noqa
+except ImportError:
+    def check_output(*args, **kw):
+        return None
 from mrbob.bobexceptions import ValidationError
 
 def get_git_global(field):
@@ -43,7 +47,7 @@ def pre_homepage(configurator, question):
     """Try to get authors homepage via user.homepage or git"""
     set_author_question(configurator, question, 'user.homepage')
 
-valid_pat_r = r'^[A-Za-z][A-Za-z\_]+$'
+valid_pat_r = r'^[A-Za-z][A-Za-z0-9\_]+$'
 valid_pat = re.compile(valid_pat_r)
 
 def validate_name(configurator, question, answer):

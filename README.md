@@ -83,6 +83,10 @@ python-simple-namespace/simple/namespace/__init__.py
 
 ## Known issues
 
+Recommendation of name etc. from git does not work on python < 2.7
+
+
+
 mr.bob does not install as a requirement with ```pip < 6```. Consider to
 mr.bob by hand.
 
