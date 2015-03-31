@@ -1,7 +1,7 @@
 [metadata]
 name = {{{ python.module.name }}}.{{{ python.module.namespace.name }}}
 summary = {{{ python.module.description }}}
-description-file = README.md
+description-file = README.rst
 author = {{{ python.module.author.name }}}
 author-email = {{{ python.module.author.email }}}
 home-page = {{{ python.module.author.homepage }}}
