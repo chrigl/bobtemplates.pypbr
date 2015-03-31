@@ -14,7 +14,7 @@ Install
 Usage
 -----
 
-.. code-block:: txt
+.. code-block:: text
    
    mrbob bobtemplates.pypbr:package
    ...
@@ -66,7 +66,7 @@ python\_package
 
 Usual python package with pbr_
 
-.. code-block:: txt
+.. code-block:: text
    
    python-simple_package
    python-simple_package/.gitignore
@@ -84,7 +84,7 @@ python\_namespace\_package
 
 python namspace package with pbr_
 
-.. code-block:: txt
+.. code-block:: text
    
    python-simple-namespace
    python-simple-namespace/.gitignore
